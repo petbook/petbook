@@ -1,0 +1,199 @@
+div.panel-body{
+    width: 130px;
+    position: absolute;
+    left: 150px;
+}
+
+.pethouse .pet_name{
+  width: 40%;
+  font-size: 14pt;
+  font-weight: bold;
+  float: left;
+  text-align:center;
+}
+
+.pethouse .pet_sex{
+  width: 50%;
+  float: left;
+  text-align: center;
+
+}
+
+.pethouse .pet_kind{
+  width: 50%;
+  float: left;
+  margin-top: 5px;
+  text-align: center;
+}
+.pethouse .pet_old{
+  width: 60%;
+  float:left;
+  margin-top: 5px;
+}
+.pethouse .pet_marry{
+  width: 50%;
+  float:left;
+  margin-top: 5px;
+}
+
+.pethouse .pet_height_weight{
+  width: 60%;
+  float: left;
+  margin-top: 5px;
+}
+
+.timeline_pet>div.full.well{
+  padding: 0px;
+  margin: 0px;
+}
+
+.timeline_pet .panel{
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+
+.timeline_pet .panel img{
+    width:100%;
+}
+
+@media (min-width: 480px) {
+  .row-xs-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-xs-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-xs-height-pic {
+    display: table-cell;
+    float: none;
+    height: 70%;
+  }
+
+  .col-xs-top {
+    vertical-align: top;
+  }
+  .col-xs-middle {
+    vertical-align: middle;
+  }
+  .col-xs-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 768px) {
+  .row-sm-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-sm-top {
+    vertical-align: top;
+  }
+  .col-sm-middle {
+    vertical-align: middle;
+  }
+  .col-sm-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 992px) {
+  .row-md-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-md-top {
+    vertical-align: top;
+  }
+  .col-md-middle {
+    vertical-align: middle;
+  }
+  .col-md-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-lg-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-lg-top {
+    vertical-align: top;
+  }
+  .col-lg-middle {
+    vertical-align: middle;
+  }
+  .col-lg-bottom {
+    vertical-align: bottom;
+  }
+}
+.timeline_pet .reply{
+    background-color: white;
+    padding: 10px;
+}
+
+.timeline_pet .namespace{
+    background-color: white;
+    margin-bottom: 0px;
+    padding: 10px 10px 0px 10px;
+}
+
+.timeline_pet .enterBtn{
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+}
+.enterBtn .btn:first-child{
+    float:right;
+}
+.timeline_pet .well{
+  border: white;
+}
+.reply>img{
+  margin:0px;
+}
+
+.modal-footer{
+  margin-top: 0px;
+}
+
+/*carousel modal*/
+.modal-dialog {}
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+}
+
+.thumb{
+  width: 500px;
+  height: 500px;
+}
+
